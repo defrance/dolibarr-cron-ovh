@@ -4,7 +4,7 @@
 // URL_DOLIBARR : URL de votre Dolibarr
 // SECURITY_KEY : Clé de sécurité généré dans le paramétragbe de l'application de cron
 // USERLOGIN : Login dolibarr (pas celui d'ovh) de l'utilisateur qui va lancer le cron
-// ID_PLANNED : ID de l'utilisateur qui va lancer le cron
+// ID_PLANNED : ID de la tache planifié à lancer (si non renseigné on lance toute les taches actives)
 $url = "https://URL_DOLIBARR/htdocs/public/cron/cron_run_jobs_by_url.php?securitykey=SECURITY_KEY&userlogin=USERLOGIN&id=ID_PLANNED";
 
 // Récupérer le contenu de la page
